@@ -1,0 +1,37 @@
+body {
+	margin: 0;               
+	height: 100vh;
+	background: url("image/8-bit-graphics-pixels-scene-with-village.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.weatherInput{
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-family: "Comic Sans", cursive;
+}
+
+.searchBtn {
+	padding: 5px 10px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.weatherOutput {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+	height: 300px;
+	margin: 0 auto; 
+	margin-top: 20px;	
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 15px;
+	backdrop-filter: blur(7px);
+	color: black;
+	font-weight: bold;
+	font-family: "Comic Sans", cursive;
+}
